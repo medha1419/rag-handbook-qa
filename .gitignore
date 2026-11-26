@@ -1,0 +1,15 @@
+# The handbook is marked "Internal use only, private & confidential"
+# and contains named staff contact details. Never commit it or anything derived from its text.
+data/*.pdf
+data/pages.json
+data/chunks.json
+index/
+*.faiss
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
